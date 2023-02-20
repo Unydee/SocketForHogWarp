@@ -11,7 +11,6 @@ We just messing around...
 No edit by Edynu (Unydee) - just retargeted for Visual Studio 2019 and add Includes
 You maybe need to retarget includes to your folder !!!
 
-<img src="https://i.ibb.co/CvK595D/includes.png" alt="Alt text" title="Optional title">
-
+Here : https://i.ibb.co/CvK595D/includes.png
 
 You will need add to C:/Users/*yourUser/lib -> lua5.1.dll.lib in root folder of repository (or double click it in visual studio and it will tell you path where you should put this file) 
