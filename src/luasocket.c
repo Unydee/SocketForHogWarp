@@ -84,7 +84,7 @@ static int base_open(lua_State *L) {
     if (socket_open()) {
         lua_pushstring(L, "Socket is Open");
         /* export functions (and leave namespace table on top of stack) */
-#if LUA_VERSION_NUM > 521 && !defined(LUA_COMPAT_MODULE)
+#if LUA_VERSION_NUM > 501 && !defined(LUA_COMPAT_MODULE)
         lua_newtable(L);
         luaL_setfuncs(L, func, 0);
 #else

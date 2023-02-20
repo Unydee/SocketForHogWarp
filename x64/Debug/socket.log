@@ -1,6 +1,1 @@
-﻿  luasocket.c
-C:\Users\user\Desktop\HogWarp-socket\src\luasocket.c(66,1): warning C4244: 'initializing': conversion from 'lua_Integer' to 'int', possible loss of data
-  LINK : C:\Users\user\Desktop\HogWarp-socket\x64\Debug\socket.dll not found or not built by the last incremental link; performing full link
-     Creating library C:\Users\user\Desktop\HogWarp-socket\x64\Debug\socket.lib and object C:\Users\user\Desktop\HogWarp-socket\x64\Debug\socket.exp
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  socket.vcxproj -> C:\Users\user\Desktop\HogWarp-socket\x64\Debug\socket.dll
+﻿LINK : fatal error LNK1104: cannot open file '..\..\lib\lua5.1.dll.lib'
