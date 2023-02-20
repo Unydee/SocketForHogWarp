@@ -1,1 +1,2 @@
 C:\Users\user\Desktop\HogWarp-socket\x64\Debug\socket.dll
+C:\Users\user\Desktop\gitsocket\SocketForHogWarp\x64\Debug\socket.dll

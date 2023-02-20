@@ -112,7 +112,6 @@ static int base_open(lua_State *L) {
 \*-------------------------------------------------------------------------*/
 LUASOCKET_API int luaopen_socket_core(lua_State *L) {
     int i;
-    return 0;
     base_open(L);
     for (i = 0; mod[i].name; i++) mod[i].func(L);
     return 1;
