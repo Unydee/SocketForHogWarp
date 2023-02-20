@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket", "socket.vcxproj", "{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mime", "mime.vcxproj", "{128E8BD0-174A-48F0-8771-92B1E8D18713}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libluasocket", "libluasocket.vcproj", "{599EAD40-60EE-4043-9C14-AE090A8A092D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x64.ActiveCfg = Debug|x64
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x64.Build.0 = Debug|x64
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Debug|x86.Build.0 = Debug|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x64.ActiveCfg = Release|x64
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x64.Build.0 = Release|x64
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x86.ActiveCfg = Release|Win32
+		{66E3CE14-884D-4AEA-9F20-15A0BEAF8C5A}.Release|x86.Build.0 = Release|Win32
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Debug|x64.ActiveCfg = Debug|x64
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Debug|x64.Build.0 = Debug|x64
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Debug|x86.ActiveCfg = Debug|Win32
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Debug|x86.Build.0 = Debug|Win32
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Release|x64.ActiveCfg = Release|x64
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Release|x64.Build.0 = Release|x64
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Release|x86.ActiveCfg = Release|Win32
+		{128E8BD0-174A-48F0-8771-92B1E8D18713}.Release|x86.Build.0 = Release|Win32
+		{599EAD40-60EE-4043-9C14-AE090A8A092D}.Debug|x64.ActiveCfg = Debug|Win32
+		{599EAD40-60EE-4043-9C14-AE090A8A092D}.Debug|x86.ActiveCfg = Debug|Win32
+		{599EAD40-60EE-4043-9C14-AE090A8A092D}.Release|x64.ActiveCfg = Release|Win32
+		{599EAD40-60EE-4043-9C14-AE090A8A092D}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14155FC1-43DC-4975-8DE8-8DB12B9BCD53}
+	EndGlobalSection
+EndGlobal
